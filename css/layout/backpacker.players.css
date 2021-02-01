@@ -1,0 +1,36 @@
+div.bp-player-card {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+    font-size: 14pt;
+    margin: 0px auto;
+}
+
+.bp-player-card > * {
+    display: inline-block;
+    position: relative;
+}
+
+.bp-player-card > h3 {
+    margin: 2px 2px;
+    top: -25px;
+}
+
+.bp-player-card > h6 {
+    margin: 15px 5px 5px 2px;
+    padding: 0px 8px;
+    top: 18px;
+
+    font-size: 12pt;
+}
+
+.bp-player-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+
+    border: 1px solid gray;
+
+    margin: 5px 10px;
+}

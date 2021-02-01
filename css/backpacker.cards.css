@@ -1,0 +1,10 @@
+.bp-card#c000, .bp-card-back {background-image: url("/assets/back.png");}
+
+.bp-card#c001 {background-image: url("/assets/BaseCards/001-Japan.png");}
+.bp-card#c002 {background-image: url("/assets/BaseCards/002-Beach_Bonus.png");}
+.bp-card#c003 {background-image: url("/assets/BaseCards/003-Love.png");}
+.bp-card#c004 {background-image: url("/assets/BaseCards/004-Travel_Around_The_World.png");}
+.bp-card#c005 {background-image: url("/assets/BaseCards/005-Fiji.png");}
+.bp-card#c006 {background-image: url("/assets/BaseCards/006-Under_the_Influence.png");}
+.bp-card#c007 {background-image: url("/assets/BaseCards/007-Culture_Bonus.png");}
+.bp-card#c008 {background-image: url("/assets/BaseCards/008-Thief_Steals_Bag.png");}

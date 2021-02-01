@@ -1,0 +1,21 @@
+{
+  "name": "backpacker",
+  "version": "0.1.0",
+  "description": "BackPacker Card Game - Digitized",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "BackPacker",
+    "Card",
+    "Game",
+    "Card",
+    "Game",
+    "Fun",
+    "Online",
+    "Multiplayer"
+  ],
+  "author": "Lunasphere: Entertainment",
+  "license": "UNLICENSED"
+}

@@ -1,0 +1,69 @@
+div.bp-game-mat {
+    width: 99vw;
+    height: 98vh;
+
+    display: grid;
+    grid-template-columns: 75% 25%;
+
+    overflow: hidden;
+}
+
+div#right-menu {
+    position: relative;
+    display: grid;
+
+    margin: 2px 8px;
+
+    grid-template-rows: 25% 75%;
+    grid-template-rows: minmax(100px, max-content) auto;
+    /*grid-auto-rows: max-content auto;*/
+}
+
+div#player-scores {
+    margin: 10px 2px;
+}
+
+div#card-info {
+    margin: 15px 5px;
+}
+
+#cardInfoTitle, #cardInfoDescription {
+    margin: 4px 20px;
+}
+
+div.bp-test-grid {
+    border: 1px solid blue;
+}
+
+div.bp-player-hand {
+    position: absolute;
+    width: 70%;
+    height: 20vh;
+
+    left: 15%;
+    top: 80%;
+
+    text-align: center;
+}
+
+div.bp-future-pile {
+    width: 128px;
+    height: 200px;
+
+    position: absolute;
+    left: 35%;
+    top: 39%;
+}
+
+.bp-player-hand > .bp-card {
+    display: inline-block;
+}
+
+div.bp-past-pile {
+    width: 128px;
+    height: 200px;
+
+    position: absolute;
+    left: 50%;
+    top: 39%;
+}

@@ -1,0 +1,38 @@
+.bp-card-shadow {
+    box-shadow: 4px 6px 2px black;
+}
+
+.bp-card-i-shadow {
+    box-shadow: -2px 2px 1px gray;
+}
+
+div.bp-card {
+    width: 128px;
+    height: 180px;
+
+    border-radius: 20px;
+    overflow: hidden;
+
+    transition: all .3s ease;
+    background-size: cover;
+}
+
+.bp-card-iter:hover {
+    transform: scale(1.2);
+
+    cursor: pointer;
+}
+
+.bp-card-lg {
+    width: 100% !important;
+    height: 60% !important;
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bp-card > img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
